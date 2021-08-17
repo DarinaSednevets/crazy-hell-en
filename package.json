@@ -1,0 +1,32 @@
+{
+  "name": "crazy-hell-en",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://DarinaSednevets.github.io/crazy-hell-en",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "predeploy": "npm run build -- --public-url /crazy-hell-en/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarinaSednevets/crazy-hell-en.git"
+  },
+  "keywords": [],
+  "author": "DarinaSednevets <dariaausten@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarinaSednevets/crazy-hell-en/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.5",
+    "posthtml-include": "^1.7.0",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
